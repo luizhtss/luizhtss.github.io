@@ -1,0 +1,113 @@
+meta:
+  title: "Luiz Henrique Targino — Full-stack Developer"
+  description: "Software developer with experience in web systems, microservices and low-latency WebRTC streaming."
+
+nav:
+  language_label: "Language"
+
+hero:
+  name: "Luiz Henrique Targino"
+  role: "Full-stack Developer"
+  location: "Parnamirim, RN, Brazil"
+  bio: >
+    Software developer with experience in web systems, microservices and, more
+    recently, low-latency WebRTC streaming. I currently work on a streaming
+    platform at Trybuchet (Birmingham, England), where I am building a
+    cross-platform multimedia framework in Go featuring native capture,
+    hardware-accelerated encoding and a real-time media pipeline. I also have
+    a strong Java/Spring background, microservices and full-stack development
+    from applied research at UFRN.
+
+sections:
+  experience: "Experience"
+  education: "Education"
+  skills: "Skills"
+  contact: "Contact"
+
+experience:
+  - company: "Trybuchet Ltd"
+    role: "Software Developer"
+    location: "Birmingham, England"
+    period: "February 2026 — Present"
+    bullets:
+      - "Working on a low-latency WebRTC streaming platform."
+      - "Solo development of a cross-platform multimedia framework in Go (Windows, Linux, macOS), including native screen and audio capture (WASAPI, PulseAudio, CoreAudio), hardware-accelerated video encoding (NVIDIA Encoder, AMF, QSV, VAAPI, VideoToolbox), real-time media pipeline and an input injection subsystem with virtual gamepads."
+      - "Systems programming in Go, native library interop via CGO and hot-path performance optimization."
+      - "Real-time streaming architectures: WebRTC, NACK, adaptive bitrate control and fanout to multiple viewers; frontend in TypeScript/React."
+    tech: ["Go", "CGO", "libavcodec", "WebRTC", "TypeScript", "React"]
+
+  - company: "Metrópole Digital — UFRN"
+    role: "Researcher / Software Developer"
+    location: "Natal, RN, Brazil"
+    period: "August 2024 — Present"
+    bullets:
+      - "Research project building a management platform for research foundations, focused on modernization and scalability."
+      - "Maintenance of a legacy system and development of new modules with modern technologies, with performance and efficiency improvements."
+      - "Microservice development including a payment integration with Banco do Brasil and a data microservice powering dashboards integrated with the legacy system."
+      - "Unit testing implementation."
+    tech: ["Java", "Java EE", "Spring", "React", "PostgreSQL", "Docker"]
+
+  - company: "Metrópole Digital — UFRN"
+    role: "Researcher / Software Developer"
+    location: "Natal, RN, Brazil"
+    period: "May 2025 — May 2026"
+    bullets:
+      - "Research project in partnership with the Brazilian Public Labor Prosecutor's Office (MPT) — building an intelligent platform for classifying and placing former inmates in the labor market, leveraging AI."
+      - "Full-stack development: data modeling, REST APIs, CRUDs, report generation and analytical dashboards."
+      - "Microservice architecture with Spring Cloud, including payment integration with Banco do Brasil."
+      - "Application of AI for classification and automated opportunity matching."
+      - "Unit testing and adoption of best practices in software architecture and engineering."
+    tech: ["Java", "Spring Boot", "Spring Cloud", "Spring AI", "Angular", "PgVector"]
+
+  - company: "ESIG Software e Consultoria em TI"
+    role: "Web/Java Developer — Development Analyst"
+    location: "Natal, RN, Brazil"
+    period: "August 2023 — 2026"
+    bullets:
+      - "Development on the SIGEduc RN project."
+      - "Methodologies: OKR, Kanban and Scrum."
+    tech: ["Struts", "Hibernate", "JSF", "JPA", "JSP", "SQL", "Java EE"]
+
+  - company: "UFRN"
+    role: "Programming Teaching Assistant (Scholarship)"
+    location: "Natal, RN, Brazil"
+    period: "April 2022 — December 2022"
+    bullets:
+      - "Teaching assistant for programming courses in UFRN's IT Bachelor's program (BTI)."
+    tech: ["C", "C++", "Python"]
+
+  - company: "Metrópole Digital — IMD/UFRN"
+    role: "Volunteer Teaching Assistant"
+    location: "Natal, RN, Brazil"
+    period: "August 2018 — June 2019"
+    bullets:
+      - "Volunteer teaching assistant for the intermediate/advanced module of the IT Technical Course at IMD/UFRN."
+    tech: ["Java", "Java EE", "MVC", "SQL", "JavaScript", "HTML", "CSS"]
+
+education:
+  - school: "Universidade Federal do Rio Grande do Norte"
+    degree: "Bachelor's in Information Technology"
+    period: "In progress"
+  - school: "Universidade Federal do Rio Grande do Norte"
+    degree: "Technical degree in Information Technology"
+    period: "February 2018 — July 2019 (completed)"
+
+skills:
+  - category: "Languages"
+    items: ["Java", "Go", "JavaScript / TypeScript", "Python", "C / C++"]
+  - category: "Backend"
+    items: ["Spring (Boot, Cloud, AI)", "Java EE", "JSF / Servlets", "Hibernate / JPA", "Struts"]
+  - category: "Frontend"
+    items: ["React", "Angular", "Flutter"]
+  - category: "Data"
+    items: ["PostgreSQL", "PgVector", "SQL"]
+  - category: "Systems / Streaming"
+    items: ["WebRTC", "libavcodec", "CGO", "Hardware encoders (NVENC, AMF, QSV, VAAPI, VideoToolbox)"]
+  - category: "DevOps & Infra"
+    items: ["Docker"]
+
+contact:
+  intro: "Feel free to reach out via email or browse my projects on GitHub."
+  email: "lhtargino@gmail.com"
+  github_url: "https://github.com/luizhtss"
+  github_text: "github.com/luizhtss"

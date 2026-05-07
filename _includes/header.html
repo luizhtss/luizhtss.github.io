@@ -1,0 +1,11 @@
+{%- assign lang = page.lang | default: "pt" -%}
+{%- assign t = site.data[lang] -%}
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="{% if lang == 'en' %}/en/{% else %}/{% endif %}">{{ t.hero.name }}</a>
+    <nav class="lang-switcher" aria-label="{{ t.nav.language_label }}">
+      <a href="/" class="{% if lang != 'en' %}active{% endif %}" hreflang="pt-BR">PT</a>
+      <a href="/en/" class="{% if lang == 'en' %}active{% endif %}" hreflang="en">EN</a>
+    </nav>
+  </div>
+</header>

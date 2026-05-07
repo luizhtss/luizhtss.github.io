@@ -1,0 +1,21 @@
+title: "Luiz Henrique Targino"
+description: "Software Engineer"
+url: "https://luizhtss.github.io"
+baseurl: ""
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+sass:
+  style: compressed
+
+permalink: pretty

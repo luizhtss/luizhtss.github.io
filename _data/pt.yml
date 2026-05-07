@@ -1,0 +1,113 @@
+meta:
+  title: "Luiz Henrique Targino — Desenvolvedor Full-stack"
+  description: "Desenvolvedor de software com experiência em sistemas web, microserviços e streaming WebRTC de baixa latência."
+
+nav:
+  language_label: "Idioma"
+
+hero:
+  name: "Luiz Henrique Targino"
+  role: "Desenvolvedor Full-stack"
+  location: "Parnamirim, RN, Brasil"
+  bio: >
+    Desenvolvedor de software com experiência em sistemas web, microserviços e,
+    mais recentemente, streaming WebRTC de baixa latência. Atualmente trabalho
+    em uma plataforma de streaming na Trybuchet (Birmingham, Inglaterra), onde
+    desenvolvo um framework multimídia em Go cross-platform com captura nativa,
+    encoding por hardware e pipeline de mídia em tempo real. Também tenho
+    background sólido em Java/Spring, microserviços e desenvolvimento full-stack
+    a partir de pesquisa aplicada na UFRN.
+
+sections:
+  experience: "Experiência"
+  education: "Formação"
+  skills: "Competências"
+  contact: "Contato"
+
+experience:
+  - company: "Trybuchet Ltd"
+    role: "Desenvolvedor de Software"
+    location: "Birmingham, Inglaterra"
+    period: "Fevereiro 2026 — Presente"
+    bullets:
+      - "Atuação no desenvolvimento de uma plataforma de streaming WebRTC de baixa latência."
+      - "Desenvolvimento individual de um framework multimídia em Go multiplataforma (Windows, Linux, macOS), incluindo captura nativa de tela e áudio (WASAPI, PulseAudio, CoreAudio), encoding de vídeo acelerado por hardware (NVIDIA Encoder, AMF, QSV, VAAPI, VideoToolbox), pipeline de mídia em tempo real e subsistema de injeção de input com gamepads virtuais."
+      - "Programação de sistemas em Go, interoperabilidade com bibliotecas nativas via CGO e otimização de performance em hot path."
+      - "Arquiteturas de streaming em tempo real: WebRTC, NACK, controle adaptativo de bitrate e fanout para múltiplos viewers; frontend em TypeScript/React."
+    tech: ["Go", "CGO", "libavcodec", "WebRTC", "TypeScript", "React"]
+
+  - company: "Metrópole Digital — UFRN"
+    role: "Pesquisador / Desenvolvedor de Software"
+    location: "Natal, RN, Brasil"
+    period: "Agosto 2024 — Presente"
+    bullets:
+      - "Projeto de pesquisa para desenvolvimento de uma plataforma de gestão de fundações de pesquisa, com foco em modernização e escalabilidade."
+      - "Manutenção de sistema legado e desenvolvimento de novos módulos com tecnologias modernas, com ganhos de performance e eficiência."
+      - "Desenvolvimento de microserviços, incluindo integração de pagamentos com o Banco do Brasil e microserviço de dados para dashboards integrado ao sistema legado."
+      - "Implementação de testes unitários."
+    tech: ["Java", "Java EE", "Spring", "React", "PostgreSQL", "Docker"]
+
+  - company: "Metrópole Digital — UFRN"
+    role: "Pesquisador / Desenvolvedor de Software"
+    location: "Natal, RN, Brasil"
+    period: "Maio 2025 — Maio 2026"
+    bullets:
+      - "Projeto de pesquisa em parceria com o Ministério Público do Trabalho (MPT), para desenvolvimento de uma plataforma inteligente de classificação e inserção de apenados no mercado de trabalho, utilizando IA."
+      - "Desenvolvimento full-stack: modelagem de dados, APIs REST, CRUDs, geração de relatórios e dashboards analíticos."
+      - "Arquitetura baseada em microserviços com Spring Cloud e integração com sistemas de pagamento do Banco do Brasil."
+      - "Aplicação de IA para classificação e busca automatizada de oportunidades."
+      - "Testes unitários e adoção de boas práticas de arquitetura e engenharia de software."
+    tech: ["Java", "Spring Boot", "Spring Cloud", "Spring AI", "Angular", "PgVector"]
+
+  - company: "ESIG Software e Consultoria em TI"
+    role: "Desenvolvedor Web/Java — Analista de Desenvolvimento"
+    location: "Natal, RN, Brasil"
+    period: "Agosto 2023 — 2026"
+    bullets:
+      - "Desenvolvimento no projeto SIGEduc RN."
+      - "Metodologias: OKR, Kanban e Scrum."
+    tech: ["Struts", "Hibernate", "JSF", "JPA", "JSP", "SQL", "Java EE"]
+
+  - company: "UFRN"
+    role: "Bolsista — Monitoria de Programação"
+    location: "Natal, RN, Brasil"
+    period: "Abril 2022 — Dezembro 2022"
+    bullets:
+      - "Monitor nas disciplinas de programação do Bacharelado em Tecnologia da Informação (BTI) da UFRN."
+    tech: ["C", "C++", "Python"]
+
+  - company: "Metrópole Digital — IMD/UFRN"
+    role: "Monitor Voluntário"
+    location: "Natal, RN, Brasil"
+    period: "Agosto 2018 — Junho 2019"
+    bullets:
+      - "Monitoria voluntária no módulo intermediário/avançado do Curso Técnico em Tecnologia da Informação do IMD/UFRN."
+    tech: ["Java", "Java EE", "MVC", "SQL", "JavaScript", "HTML", "CSS"]
+
+education:
+  - school: "Universidade Federal do Rio Grande do Norte"
+    degree: "Bacharelado em Tecnologia da Informação"
+    period: "Em andamento"
+  - school: "Universidade Federal do Rio Grande do Norte"
+    degree: "Ensino Técnico em Tecnologia da Informação"
+    period: "Fevereiro 2018 — Julho 2019 (concluído)"
+
+skills:
+  - category: "Linguagens"
+    items: ["Java", "Go", "JavaScript / TypeScript", "Python", "C / C++"]
+  - category: "Backend"
+    items: ["Spring (Boot, Cloud, AI)", "Java EE", "JSF / Servlets", "Hibernate / JPA", "Struts"]
+  - category: "Frontend"
+    items: ["React", "Angular", "Flutter"]
+  - category: "Dados"
+    items: ["PostgreSQL", "PgVector", "SQL"]
+  - category: "Sistemas / Streaming"
+    items: ["WebRTC", "libavcodec", "CGO", "Encoders por hardware (NVENC, AMF, QSV, VAAPI, VideoToolbox)"]
+  - category: "DevOps & Infra"
+    items: ["Docker"]
+
+contact:
+  intro: "Para contato, fique à vontade para enviar um e-mail ou conferir os projetos no GitHub."
+  email: "lhtargino@gmail.com"
+  github_url: "https://github.com/luizhtss"
+  github_text: "github.com/luizhtss"

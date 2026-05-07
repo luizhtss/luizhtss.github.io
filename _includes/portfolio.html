@@ -1,0 +1,60 @@
+{%- assign lang = page.lang | default: "pt" -%}
+{%- assign t = site.data[lang] -%}
+
+<section class="hero">
+  <h1>{{ t.hero.name }}</h1>
+  <p class="role">{{ t.hero.role }}</p>
+  <p class="location">{{ t.hero.location }}</p>
+  <p class="bio">{{ t.hero.bio }}</p>
+</section>
+
+<section id="experience" aria-labelledby="experience-heading">
+  <h2 id="experience-heading">{{ t.sections.experience }}</h2>
+  {% for exp in t.experience %}
+    <article class="entry">
+      <h3>{{ exp.role }}</h3>
+      <p class="company">{{ exp.company }}</p>
+      <p class="meta">{{ exp.period }} &middot; {{ exp.location }}</p>
+      <ul>
+        {% for b in exp.bullets %}<li>{{ b }}</li>{% endfor %}
+      </ul>
+      {% if exp.tech and exp.tech.size > 0 %}
+      <ul class="tech-list" aria-label="Tech">
+        {% for item in exp.tech %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </article>
+  {% endfor %}
+</section>
+
+<section id="education" aria-labelledby="education-heading">
+  <h2 id="education-heading">{{ t.sections.education }}</h2>
+  {% for ed in t.education %}
+    <article class="entry">
+      <h3>{{ ed.degree }}</h3>
+      <p class="company">{{ ed.school }}</p>
+      <p class="meta">{{ ed.period }}</p>
+    </article>
+  {% endfor %}
+</section>
+
+<section id="skills" aria-labelledby="skills-heading">
+  <h2 id="skills-heading">{{ t.sections.skills }}</h2>
+  <div class="skills-grid">
+    {% for sk in t.skills %}
+      <div class="skill-group">
+        <h3>{{ sk.category }}</h3>
+        <ul>
+          {% for item in sk.items %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="contact" aria-labelledby="contact-heading">
+  <h2 id="contact-heading">{{ t.sections.contact }}</h2>
+  <p>{{ t.contact.intro }}</p>
+  <p><a href="mailto:{{ t.contact.email }}">{{ t.contact.email }}</a></p>
+  {% if t.contact.github_url %}<p><a href="{{ t.contact.github_url }}" rel="noopener" target="_blank">{{ t.contact.github_text }}</a></p>{% endif %}
+</section>
